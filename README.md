@@ -1,2 +1,5 @@
-# red-ball
-Red Ball related content
+# Red Ball
+
+Welcome to my Red Ball collection.
+
+**- InsaneJetman**
