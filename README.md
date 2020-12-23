@@ -7,7 +7,7 @@ Welcome to my Red Ball collection.
 ## Level Reset Macro
 
 This macro allows one to reset Red Ball to the start of a level.
-It was built using [**AutoHotkey**](https://www.autohotkey.com/).
+It was built using [AutoHotkey](https://www.autohotkey.com/).
 
 Upon activating the macro, you will be prompted for:
 
