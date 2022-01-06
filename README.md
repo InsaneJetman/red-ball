@@ -20,7 +20,7 @@ Hotkey modifier [symbols](https://www.autohotkey.com/docs/Hotkeys.htm#Symbols) c
 
 The "Show All" option should be activated in Adobe Flash Player if the game is running in full screen or the window has been resized.
 
-View the [source code](RedBallReset.ahk).
+View the [source code](RedBall4Reset.ahk).
 Download a [binary](https://github.com/InsaneJetman/red-ball/releases/latest/download/RedBallReset.exe).
 
 --------------------------------------------------------------------------------
