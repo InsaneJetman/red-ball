@@ -1,27 +1,29 @@
 ﻿; Red Ball Level Reset Macro
 ; by InsaneJetman
 ;
-; This macro assumes that the "Show All" option has been activated in Adobe Flash Player.
+; This macro needs "Show All" option has been activated in Adobe Flash Player.
 
 #NoEnv
 #SingleInstance force
-PauseTime = 100
 
-Gui, New, , Red Ball Reset
+PauseTime := 100
+Turbo := false
+Level := 1
+HotKey := "F12"
+
 Gui, Add, Text, , Level:
 Gui, Add, Text, , Hotkey:
 Gui, Add, Text, , Turbo Reset:
-Gui, Add, Edit, ys w60
-Gui, Add, UpDown, vLevel Range1-17, 1
-Gui, Add, Edit, vHotKey w80, F12
+Gui, Add, Edit, vLevel w60, 1
+Gui, Add, Edit, vHotKey w80, %HotKey%
 Gui, Add, CheckBox, vTurbo
 Gui, Add, Button, Default w80, OK
-Gui, Show
+Gui, Show,, Red Ball Reset
 return
 
 GuiClose:
 ButtonOK:
-Gui, Submit
+Gui, Submit, NoHide
 Hotkey, %HotKey%, Reset
 return
 
